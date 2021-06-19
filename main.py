@@ -25,10 +25,10 @@ while (i < 5):
         print (perguntas[ale][0])
         resposta_usuario = input('Sua resposta é a alternativa: ')
         if (perguntas[ale][1] == resposta_usuario):
-            print("acertou mizeravi")
+            print("acertou!!!")
             respostas_certas = respostas_certas + 100
         else:
-            print("errou seu corno")
+            print("errou :(")
             break
-print ("acabou o jogo, você fez essa pontuaçao meu querido:", respostas_certas)
+print ("Acabou o jogo, você fez essa pontuaçao:", respostas_certas)
 
